@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightpink;
+    gap: 100px;
+    padding: 60px;
+}
+
+.square {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+}
+.square:hover {
+    background-color: grey;
+    border-radius: 50%;
+    transition: 1s;
+}
