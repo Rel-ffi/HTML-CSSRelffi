@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+#firstsection , #secondarysection , #thirtysection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.text {
+    width: 70vw;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+#firstsection {
+    background-color: #C5705C;
+}
+#secondarysection {
+    background-color: #8BEAE0;
+}
+#thirtysection {
+    background-color: #51C674;
+}
+a {
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+}
