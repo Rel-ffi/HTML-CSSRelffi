@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+.section-1 , .section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    width: 100vw;
+}
+.section-1 {
+    background-color: #FFC0CB;
+    gap: 30px;
+    /*border: #FF606C; не сильно поняв, чи має все ж таки там бути рамочка чи ні. . . */
+
+}
+.section-2 {
+    background-color: #272727;
+    color: white;
+    gap: 30px;
+}
+.text {
+    width: 70vw;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+h1 {
+    font-size: 30px;
+}
