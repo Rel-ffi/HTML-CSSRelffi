@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+}
+
+.burger-loader {
+    font-size: 60px;
+    position: relative;
+    animation: jump 1.5s infinite ease-in-out;
+}
+
+.shadow {
+    width: 50px;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: shadowScale 1.5s infinite ease-in-out;
+}
+
+@keyframes jump {
+    0%, 100% { transform: translateY(0) rotate(0deg) scale(1); }
+    50% { transform: translateY(-30px) rotate(10deg) scale(1.1); }
+}
+
+@keyframes shadowScale {
+    0%, 100% { transform: translateX(-50%) scaleX(1); opacity: 0.7; }
+    50% { transform: translateX(-50%) scaleX(1.4); opacity: 0.3; }
+}
