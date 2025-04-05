@@ -1,0 +1,23 @@
+* {
+    list-style-type: decimal;
+}
+body {
+    background-color: grey;
+}
+.list1 li:nth-child(even) {
+    color: pink;
+}
+.list2 li:nth-child(odd) {
+    font-size: 22px;
+}
+.list3 li:nth-child(2n+4):after {
+    content: "!";
+    font-size: 130%;
+}
+.list4 li:nth-last-child(1) {
+   color: purple;
+}
+.list5 li::first-letter {
+    font-size: 30px;
+    color: red;
+}
