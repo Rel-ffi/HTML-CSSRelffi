@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.container-top {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #DBDBDB;
+    height: 60vh;
+    width: 420px;
+    border-radius: 2px;
+}
+h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-size: 50px;
+    color: #262626;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input {
+    width: 300px;
+    height: 40px;
+    border: 0;
+    outline: 2px solid #DBDBDB;
+    font-size: 15px;
+    background-color: #FAFAFA;
+}
+#submit {
+    background-color: #68B5FA;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.container-top p {
+    color: #737373;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: -20px;
+}
+.container-top div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    gap: 10px;
+}
+.container-top img {
+    width: 30px;
+    height: 30px;
+}
+.container-top div a {
+    color: #375185;
+    font-size: 19px;
+}
+.container-top a {
+    color: #00376B;
+    font-size: 17px;
+    font-weight: bold;
+}
+.container-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 2px solid #DBDBDB;
+    height: 60px;
+    width: 420px;
+    margin-top: 10px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.container-bottom a {
+    color: #0095F6;
+}
