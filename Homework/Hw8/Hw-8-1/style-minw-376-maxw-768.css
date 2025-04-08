@@ -1,0 +1,26 @@
+@media screen and (min-width:376px) and (max-width: 768px) {
+    main {
+        margin: 32px 24px;
+        gap: 64px;
+    }
+    .containerimg-1 , .containerimg-2 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .containerimg-1 div , .containerimg-2 div {
+        width: 219px;
+        height: 263px;
+        justify-content: flex-start;
+        overflow: hidden;
+    }
+
+    img {
+        width: 100%;
+    }
+    h3 {
+        padding: 20px 0 15px;
+
+    }
+
+}

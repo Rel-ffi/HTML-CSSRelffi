@@ -1,0 +1,24 @@
+@media screen and (min-width: 0) and (max-width: 375px) {
+    main {
+        gap: 40px;
+    }
+    .containerimg-1 , .containerimg-2 {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .containerimg-1 div , .containerimg-2 div {
+        width: 343px;
+        height: 332px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    img {
+        width: 100%;
+    }
+
+}
