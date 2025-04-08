@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px) {
+    body {
+        height: auto;
+    }
+    section {
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        gap: 32px;
+        margin: 32px 16px;
+    }
+    section div {
+        width: 343px;
+        height: 220px;
+    }
+    section h3 {
+        padding: 16px 0 8px 0;
+    }
+    section p {
+        width: 100%;
+    }
+    section img {
+        width: 128px;
+    }
+}
