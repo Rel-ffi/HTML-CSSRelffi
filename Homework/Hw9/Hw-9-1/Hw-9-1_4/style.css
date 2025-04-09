@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.grid-container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr 0.5fr 0.5fr 1fr 1fr;
+    grid-template-areas:
+    "header header"
+    "content-1 spam1"
+    "content-2 spam1"
+    "content-2 spam2"
+    "content-3 spam2"
+    "footer footer"
+;
+}
+header,footer {
+    background: #8D8484;
+}
+header h2 , footer h2 {
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+.content-1 h2 , .content-2 h2 , .content-3 h2 , .spam1 h2, .spam2 h2 {
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+header {
+    grid-area: header;
+}
+.content-1 {
+    grid-area: content-1;
+    background: #776969;
+}
+.content-2 {
+    grid-area: content-2;
+    background: #643030;
+}
+.content-3 {
+    grid-area: content-3;
+    background: #441818;
+}
+.spam1 {
+    grid-area: spam1;
+    background: #937575;
+}
+.spam2 {
+    grid-area: spam2;
+    background: #644C4C;
+}
+footer {
+    grid-area: footer;
+}
+header, .content-1 , .content-2 , .content-3 , .spam1 , .spam2 , footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
